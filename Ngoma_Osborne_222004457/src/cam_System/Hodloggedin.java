@@ -159,7 +159,7 @@ public class Hodloggedin {
     }
 
     private void displayResultSet(String query, String title) {
-        try (Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/Ngoma_Osborne_222004457", "ngoma_osborne", "222004457");
+        try (Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/Ngoma_Osborne_CAMS", "222004457", "222004457");
              PreparedStatement stmt = conn.prepareStatement(query);
              ResultSet rs = stmt.executeQuery()) {
             // Create JTable and display ResultSet

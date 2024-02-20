@@ -13,9 +13,9 @@ public class teacherloggedin implements ActionListener {
     JFrame telooginF;
 
     static final String JDBC_DRIVER = "your_jdbc_driver";
-    String url = "jdbc:mysql://localhost:3306/Ngoma_Osborne_222004457";
-    String UserN = "ngoma_osborne";
-    String PassD = "222004457";
+	String url = "jdbc:mysql://localhost:3306/Ngoma_Osborne_CAMS";
+	String UserN = "222004457";
+	String PassD = "222004457";
 
     JLabel wellb = new JLabel("Welcome");
     JLabel enterlb = new JLabel("Enter Course Name:");

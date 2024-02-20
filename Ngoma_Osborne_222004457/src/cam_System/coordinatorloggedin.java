@@ -15,9 +15,10 @@ public class coordinatorloggedin implements ActionListener {
     JLabel updateLabel, representativeLabel, dataLabel, classNameLabel, classroomLabel;
     JComboBox<String> representativeDropdown, dataDropdown;
     JButton updateButton, registerClassButton, registerClassroomButton;
-    String url = "jdbc:mysql://localhost:3306/Ngoma_Osborne_222004457";
-    String UserN = "ngoma_osborne";
-    String PassD = "222004457";
+    static final String JDBC_DRIVER = "your_jdbc_driver";
+	String url = "jdbc:mysql://localhost:3306/Ngoma_Osborne_CAMS";
+	String UserN = "222004457";
+	String PassD = "222004457";
 
     public coordinatorloggedin() {
         frame = new JFrame();
